@@ -1,0 +1,152 @@
+//Este es un comentario
+//primer practica
+/*
+ * Esto es un comentario multilinea
+ * Hola de nuevo...
+ *\
+ *\
+ 
+ 
+ print('hola mundo');
+////
+
+--------------------------------------------------
+
+void main() {
+  //
+  const nombre ='Tony';
+  const apellido = 'Stark';
+  
+  //nombre = 'petet';
+  
+  print('$nombre $apellido');
+  
+  // Numeros
+  
+  int empleados = 10;
+  double salario =1856.25;
+  
+  print(empleados);
+  print(salario);
+    
+  }
+
+----------------------------------------------------
+
+void main() {
+  //bool
+  
+  bool? isActive == null{
+    print('isActive es null');
+  } else {
+    print('no es null');
+  }
+  }
+
+----------------------------------------------------
+
+void main() {
+  //Listas
+  List<int> numeros = [1,2,3,4,5,6,7,8,9,10,11];
+  numeros.add(5);
+  print( numeros);
+  final masNumeros = List.generate(100,(int index)=> index);
+  print(masNumeros);
+  
+  }
+
+
+----------------------------------------
+
+void main() {
+  //Maps
+
+  
+  Map <dynamic, dynamic>persona ={
+    'nombre': 'Fued',
+    'edad': 29,
+    'soltero': false,
+    true: false,
+    1: 100,
+    2: 500,
+   
+  };
+  
+  persona.addAll({'segundoNombre':'nombre'});
+  print(persona[1]);
+  
+  
+  
+  }
+----------------------------------------
+void main() {
+  //PRACTICA1 DE SUMA.
+  var num =8;
+  var num1= 2;
+  var res;
+  res = num+num1;
+  print(res);
+  }
+
+----------------------------------------------
+
+
+void main() {
+  //FUNCIONES
+ final nombre ='fued';
+  
+  //saludar (nombre, 'greetings');
+  saludar2(nombre: nombre, mensaje: 'greetings');
+
+}
+void saludar(String? nombre,[String mensaje ='Hola']){
+  print('$mensaje  $nombre');
+}
+
+void saludar2(
+  {
+    required String nombre,
+    required String mensaje,
+  
+  }){
+  print('$mensaje  $nombre');
+}
+
+
+
+------------------------------------
+//PRACTICA 2 MAPS
+
+void main() {
+  //FUNCIONES
+ Map <dynamic, dynamic>perfil ={
+   'nombre': 'Gamaliel',
+   'edad': 25,
+   'estudiante': true,
+   true: 'estudiante'
+   
+ };
+perfil.addAll({'estudiante':'nombre'});  
+  print(perfil['estudiante']);
+}
+
+
+
+
+
+----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
